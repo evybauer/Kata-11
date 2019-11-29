@@ -2,27 +2,6 @@
 
 //In this exercise, we will be given a list of instructors and we will create a single object to organize them based on their course.
 
-// const instructors = [
-//   {name: "Samuel", course: "iOS"},
-//   {name: "Victoria", course: "Web"},
-//   {name: "Karim", course: "Web"},
-//   {name: "Donald", course: "Web"}
-// ];
-
-// const organizeInstructors = function(instructors){
-//   let newObject = new Object();
-  
-
-//   for (let i = 0; i < instructors.length; i++){
-//     console.log(instructors[i].name)
-//     console.log(instructors[i].course)
-//     newObject[instructors[i].course] = instructors[i].name
-//   }
-//   return newObject;
-// }
-
-// console.log(organizeInstructors(instructors));
-
 const organizeInstructors = function(instructors) {
   let answer = {};
   instructors.forEach( function(item) {
